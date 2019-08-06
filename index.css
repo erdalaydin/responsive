@@ -1,0 +1,63 @@
+.art1, .art2, .art3{
+    border: solid black 1px;
+    display: flex;   
+    background: white;
+    width: 100rem;
+
+}
+.boxes {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+
+.art1p, .art2p, .art3p{
+    border: solid red 2px;
+    max-width: 50%;
+    display: flex;
+    margin: 5px;
+    }
+
+html{
+    background:white;
+}    
+
+
+  @media screen and (max-width: 1024px) {
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .boxes, html {
+        align-items: center;
+        text-align: center;
+        margin: 5px;
+        padding: 2px;
+    }
+    
+    .art1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 500px;
+    }
+
+    .art2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+    }
+
+    .art3 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+    }
+
+  
+}
